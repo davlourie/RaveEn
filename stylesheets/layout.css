@@ -1,3 +1,22 @@
-* {
-  box-sizing: border-box;
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.text1 {
+  font-size: 5vw;
+  margin: 20px 0;
+  text-align: left;
+  overflow: hidden;
+  width: 100vw;
+  white-space: nowrap;
+  animation: movetext1 10s linear infinite;
 }
