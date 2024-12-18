@@ -14,9 +14,21 @@ img {
 .text1 {
   font-size: 5vw;
   margin: 20px 0;
-  text-align: left;
-  overflow: hidden;
-  width: 100vw;
-  white-space: nowrap;
+  width: 200%;
   animation: movetext1 10s linear infinite;
+}
+.logo {
+  width: 100%;
+  overflow: hidden;
+}
+.logo img {
+  animation: logo 1s steps(1) infinite;
+  width: 200%;
+}
+
+.sound {
+  font-size: 5vw;
+  margin-top: 50px;
+  width: 200%;
+  animation: movesound1 10s linear infinite;
 }
